@@ -6,22 +6,47 @@ import Expenses from './components/Expenses/Expenses';
 const DUMMY_EXPENSES = [
   {
     id: 'e1',
-    title: 'Toilet Paper',
-    amount: 94.12,
+    title: '휴가비용',
+    amount: 94,
     date: new Date(2020, 7, 14),
   },
-  { id: 'e2', title: 'New TV', amount: 799.49, date: new Date(2021, 2, 12) },
+  { id: 'e2', title: '그래픽 카드', amount: 218, date: new Date(2021, 11, 29) },
   {
     id: 'e3',
-    title: 'Car Insurance',
-    amount: 294.67,
+    title: '4K 모니터',
+    amount: 56,
     date: new Date(2021, 2, 28),
   },
   {
     id: 'e4',
-    title: 'New Desk (Wooden)',
+    title: '유럽여행 경비',
     amount: 450,
     date: new Date(2021, 5, 12),
+  },
+  {
+    id: 'e8',
+    title: '항해99',
+    amount: 400,
+    date: new Date(2022, 1, 20),
+  },
+  {
+    id: 'e6',
+    title: '헬스 기구',
+    amount: 32,
+    date: new Date(2022, 1, 12),
+  },
+  {
+    id: 'e7',
+    title: '휴대폰 변경',
+    amount: 103,
+    date: new Date(2022, 1, 9),
+  },
+
+  {
+    id: 'e5',
+    title: '신발',
+    amount: 90,
+    date: new Date(2022, 0, 15),
   },
 ];
 

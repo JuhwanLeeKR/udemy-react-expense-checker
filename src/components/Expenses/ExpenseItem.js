@@ -20,7 +20,7 @@ const ExpenseItem = (props) => {
       {/* 콘텐츠가 없는 컴포넌트가 있다면 스스로 닫아줘야한다 -> app.js도 마찬가지 */}
       <div className="expense-item__description">
         <h2>{props.title}</h2>
-        <div className="expense-item__price">${[props.amount]}</div>
+        <div className="expense-item__price">{[props.amount]}만원</div>
       </div>
       {/* <button onClick={clickHandler}>Change Title</button> */}
     </Card>

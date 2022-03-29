@@ -9,6 +9,10 @@
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
 }
 
+.cancleBtn {
+  border: 1px solid #74408c !important;
+  background-color: #74408c !important;
+}
 .new-expense button {
   font: inherit;
   cursor: pointer;
